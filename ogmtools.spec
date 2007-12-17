@@ -10,7 +10,6 @@ Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Video
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires: libvorbis-devel
 BuildRequires: libdvdread-devel
 URL: http://www.bunkus.org/videotools/ogmtools/
