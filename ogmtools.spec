@@ -1,6 +1,6 @@
 %define name ogmtools
 %define version 1.5
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: OGG media stream tools
 Name: %{name}
