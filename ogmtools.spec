@@ -1,12 +1,8 @@
-%define name ogmtools
-%define version 1.5
-%define release %mkrel 7
-
 Summary: OGG media stream tools
-Name: %{name}
-Version: %{version}
+Name: ogmtools
+Version: 1.5
 Epoch: 1
-Release: %{release}
+Release: 8
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Video
@@ -28,16 +24,9 @@ Note that OGM is used for "OGG media streams".
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %files
-%defattr(-,root,root)
 %doc README ChangeLog
 %_bindir/*
 %_mandir/man1/*
-
-
