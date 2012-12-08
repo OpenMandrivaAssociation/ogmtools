@@ -30,3 +30,26 @@ Note that OGM is used for "OGG media streams".
 %doc README ChangeLog
 %_bindir/*
 %_mandir/man1/*
+
+
+%changelog
+* Sun Nov 20 2011 Alexander Khrukin <akhrukin@mandriva.org> 1:1.5-8
++ Revision: 732016
+- release bump spec file cleaned
+
+* Mon Sep 05 2011 Götz Waschk <waschk@mandriva.org> 1:1.5-7
++ Revision: 698302
+- rebuild
+
+* Mon Sep 01 2008 Götz Waschk <waschk@mandriva.org> 1:1.5-6mdv2011.0
++ Revision: 278255
+- rebuild for new libdvdread
+
+* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 1:1.5-5mdv2009.0
++ Revision: 254400
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
