@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Summary: OGG media stream tools
 Name: ogmtools
 Version: 1.5
