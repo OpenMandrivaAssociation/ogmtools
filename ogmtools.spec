@@ -4,7 +4,7 @@ Summary:	OGG media stream tools
 Name:		ogmtools
 Epoch:		1
 Version:	1.5
-Release:	9
+Release:	10
 License:	GPLv2
 Group:		Video
 Url:		http://www.bunkus.org/videotools/ogmtools/
