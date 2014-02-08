@@ -4,7 +4,7 @@ Summary: OGG media stream tools
 Name: ogmtools
 Version: 1.5
 Epoch: 1
-Release: 8
+Release: 9
 Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: Video
