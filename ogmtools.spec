@@ -4,7 +4,7 @@ Summary:	OGG media stream tools
 Name:		ogmtools
 Epoch:		1
 Version:	1.5
-Release:	19
+Release:	20
 License:	GPLv2
 Group:		Video
 Url:		http://www.bunkus.org/videotools/ogmtools/
@@ -21,14 +21,13 @@ Note that OGM is used for "OGG media streams".
 %setup -q
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc README ChangeLog
 %{_bindir}/*
 %{_mandir}/man1/*
-
