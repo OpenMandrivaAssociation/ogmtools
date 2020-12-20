@@ -1,4 +1,6 @@
 %define debug_package %{nil}
+%define _disable_ld_no_undefined 1
+%define _disable_lto 1
 
 Summary:	OGG media stream tools
 Name:		ogmtools
