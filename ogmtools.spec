@@ -7,7 +7,7 @@ Version:	1.5
 Release:	21
 License:	GPLv2
 Group:		Video
-Url:		http://www.bunkus.org/videotools/ogmtools/
+Url:		https://www.bunkus.org/videotools/ogmtools/
 Source0:	%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(dvdread)
 BuildRequires:	pkgconfig(vorbis)
